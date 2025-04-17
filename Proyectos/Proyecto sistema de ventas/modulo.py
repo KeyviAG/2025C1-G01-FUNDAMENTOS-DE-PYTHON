@@ -62,7 +62,7 @@ def analisis_ventas():
     print (f'TOTAL de ventas {total_ingresos:.2f}')
     
     
-    curso_1= df.grouphy('curso')['cantidad'].sum().idxmax()
+    curso_1 = df.grouphy('curso')['cantidad'].sum().idxmax()
     print(f'Curso mas vendido: ', curso_1)
     
     cliente_1 = df.grouphy('cliente')['cantidad'].sum().idxmax()
